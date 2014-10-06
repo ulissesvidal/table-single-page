@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+table#configArray {
+	margin: 10px 0px 0px 5px;
+}
+
+table#configArray td.firstColumn {
+	text-align: right;
+}
+
+table#configArray td.secondColumn {
+	
+}
+
+div#moreSettings {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 200px;
+	left: 300px;
+	border: 2px black solid;
+	background: #FFF;
+	padding: 5px;
+}
+
+div#moreSettings a#close {
+	float: right;
+	background-color: #FFF;
+	padding: 2px;
+	border: #CCC 1px solid;
+}
+div#moreSettings a#close:hover {
+	background-color: #CCC;
+	text-decoration: none;
+	cursor: default;
+}
+
+div#moreSettings input[type=button] {
+	padding: 2px 4px;
+	background-color: #F4F4F4;
+}
+
+div#moreSettings input[type=button]:hover {
+	background-color: #CCC;
+}
+
+div#moreSettings fieldset {
+	background-color: #F4F4F4;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="List" option="Option">
+		<help
+			key = "Help"
+		/>
+		<message>
+			<![CDATA[Display a list of all views]]>
+		</message>
+	</layout>
+</metadata>

@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+.grid_title{
+	font-weight: bold;
+}
+.searchForm{
+	float:right;
+	margin-bottom: 3px;
+}
+
+.searchField{
+	width: 100px;
+	margin-right: 5px;
+	}
+
+.sfCombo{
+	margin:3px 5px 0px 0px;
+	}
+
+.searchData{
+	width: 80px;
+	}
+.searchSubmit{
+	/*font-size:8pt;*/
+	}
+
+.pageButtonsDisabled{
+	color:#989898;
+}
+.currentPageNum{
+	background-color: transparent;
+}
+.pageNum{
+	background-color: transparent;
+}
+
+.jxrow1 td
+{
+}
+.jxrow2 td
+{
+}
+.jxonmouseover td
+{
+}
+.date {
+	font-size:8pt;
+	width: 120px;
+}
+
+table.noborder td, table.noborder tr{
+	border:none;
+	}
+
+/* RECORD JX */
+.RecordLabel {
+}
+.RecordData {
+}
+.RecordLabel-edit {
+	color: #888;
+}
+.RecordData-edit {
+}
+.RecordData-edit input, .RecordData-edit textarea {
+	border: 1px #333 dashed;
+	background-color: transparent;
+	width: 400px;
+}
+/* RECORD JX */

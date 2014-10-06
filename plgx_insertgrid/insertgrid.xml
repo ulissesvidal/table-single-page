@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.6" type="plugin" group="editors-xtd">
+	<name>Editor Button - Insert Grid</name>
+	<author>Tomaž Šuštar</author>
+	<creationDate>June 2011</creationDate>
+	<copyright></copyright>
+	<license>GPL</license>
+	<authorEmail>customers@toolsjx.com</authorEmail>
+	<authorUrl>http://www.toolsjx.com</authorUrl>
+	<version>1.6.1</version>
+	<description>Button allows you to insert grid into article</description>
+	<files>
+		<filename plugin="insertgrid">insertgrid.php</filename>
+	</files>
+
+</extension>

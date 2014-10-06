@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.6" type="plugin" group="content">
+	<name>Content - Display Grid</name>
+	<author>Tomaž Šuštar</author>
+	<creationDate>June 2011</creationDate>
+	<copyright></copyright>
+	<license>GPL</license>
+	<authorEmail>customers@toolsjx.com</authorEmail>
+	<authorUrl>http://www.toolsjx.com</authorUrl>
+	<version>1.6.1</version>
+	<description>Plugin displays grid within the article.</description>
+	<files>
+		<filename plugin="displaygrid">displaygrid.php</filename>
+	</files>
+</extension>

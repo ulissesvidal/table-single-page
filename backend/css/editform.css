@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+#adminForm label{
+		font-size:11px;
+	}
+
+#adminForm{
+	font-size:11px;
+	}
+
+#adminForm input{
+		float: none;
+		margin: 0px 0px 0px 8px;
+		padding: 0px;
+	}
+	
+#adminForm select{
+		float: none;
+		margin: 0px 0px 0px 8px;
+		padding: 0px;
+	}
+
+.key{
+	background-color: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    color: #666666;
+    font-weight: bold;
+    text-align: right;
+    width: 140px;
+    
+}
+
+td.order{
+	width:120px!important;
+	}
+
+table.adminlist th{
+	font-size:11px!important;
+	border-bottom: 1px solid #DDDDDD;
+	}
+table.admintable td{
+		font-size:11px!important;
+	}
+input[disabled] {
+	/*border: 1px solid #999;*/
+	background-color: #eee;
+	color: #aaa;
+}
+
+/* GRAPH JX */
+div#moreSettings {
+	display:none;
+	border-left:black solid 1px;
+}
+/* END */

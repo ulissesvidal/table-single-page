@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+    <name>COM_GRID</name>
+    <author>Tools JX</author>
+    <authorEmail>customers@toolsjx.com</authorEmail>
+  	<authorUrl>http://www.toolsjx.com</authorUrl>
+    <creationDate>June 2014</creationDate>
+    <license>GPL</license>
+    <version>3.3.1</version>
+    <description>Tools JX. Display view or table from database within the article.</description>
+
+    <scriptfile>grid.script.php</scriptfile>
+    
+    <install>
+          <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+          </sql>
+    </install>
+    
+   <update>
+        <schemas>
+          <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+	
+	<!-- user part -->
+    <files folder="frontend">
+    	<filename>grid.php</filename>
+        <filename>GridBuilder.php</filename>
+        <filename>GridConfigManager.php</filename>
+        <filename>index.html</filename>
+		
+		<folder>css</folder>
+        <folder>images</folder> 
+        <folder>js</folder>
+        <folder>layouts</folder>
+        <folder>views</folder>
+        
+    </files>
+
+    
+	
+    <!-- administration part -->
+    <administration>
+
+   <menu img="components/com_grid/images/table_icon.png">COM_GRID_MENU</menu>
+    
+    <files folder="backend">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>grid.php</filename>
+        <filename>DefaultValues.php</filename>
+
+        <folder>js</folder>
+        <folder>models</folder>
+        <folder>tables</folder> 
+      	<folder>images</folder>      	
+      	<folder>views</folder>
+      	<folder>sql</folder>
+      	<folder>css</folder>
+      	<folder>config</folder>
+    </files>
+    
+   <languages folder="languages">
+                <language tag="en-GB">en-GB.com_grid.ini</language>
+                <language tag="en-GB">en-GB.com_grid.sys.ini</language>         
+    </languages>
+
+    </administration>
+
+</extension>
